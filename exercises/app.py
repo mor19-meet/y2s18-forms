@@ -10,4 +10,8 @@ def home():
 def display_student(student_id):
     return render_template('student.html', student=query_by_id(student_id))
 
+@app.route('/add')
+def add_student_route():
+	return render_template('add.html')
+
 app.run(debug=True)
