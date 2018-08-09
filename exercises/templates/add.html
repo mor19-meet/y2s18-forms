@@ -1,15 +1,20 @@
 <!doctype html>
 <html>
 <head>
-    <title>Add a Student</title>
+	<title>Add a Student</title>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
 </head>
 <body>
-    <h1>Add a Student</h1>
-    <form method="post">
-        <input type="text" name="CHANGE_ME" placeholder="CHANGE ME">
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+	<h1>Add a Student</h1>
+	<form method="post">
+		<input type="text" name="Student_name"
+		placeholder="name">
+		<br>
+		<input type="text" name="Student_year"
+		placeholder="year">
+		<br>
+		<input type="submit" value="Submit">
+
+	</form>
 </body>
 </html>
